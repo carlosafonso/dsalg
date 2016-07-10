@@ -1,0 +1,22 @@
+{
+    "name": "carlosafonso/php-sorting",
+    "description": "PHP classes implementing different sorting algorithms",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Carlos Afonso Pérez",
+            "email": "carlos.afonso.perez@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Afonso\\Sorting\\": "src",
+            "Afonso\\Sorting\\Tests\\": "tests"
+        }
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^3.1"
+    }
+}
