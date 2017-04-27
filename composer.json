@@ -1,6 +1,6 @@
 {
-    "name": "carlosafonso/php-sorting",
-    "description": "PHP classes implementing different sorting algorithms",
+    "name": "carlosafonso/dsalg",
+    "description": "PHP implementations of several data structures and algorithms",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -14,8 +14,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Afonso\\Sorting\\": "src",
-            "Afonso\\Sorting\\Tests\\": "tests"
+            "Afonso\\Dsalg\\": "src",
+            "Afonso\\Dsalg\\Tests\\": "tests"
         }
     },
     "require-dev": {

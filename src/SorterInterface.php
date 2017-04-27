@@ -1,6 +1,6 @@
 <?php
 
-namespace Afonso\Sorting;
+namespace Afonso\Dsalg;
 
 /**
  * An interface for classes which sort arrays.
@@ -12,7 +12,7 @@ interface SorterInterface
      * result.
      *
      * @param array $set
-     * @param \Afonso\Sorting\ComparatorInterface $comparator
+     * @param \Afonso\Dsalg\ComparatorInterface $comparator
      * @return array
      */
     public function sort(array $set, ComparatorInterface $comparator);

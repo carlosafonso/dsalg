@@ -1,6 +1,6 @@
 <?php
 
-namespace Afonso\Sorting;
+namespace Afonso\Dsalg;
 
 /**
  * A dummy sorter which returns the same set that it is given.

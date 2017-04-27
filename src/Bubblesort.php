@@ -1,6 +1,6 @@
 <?php
 
-namespace Afonso\Sorting;
+namespace Afonso\Dsalg;
 
 /**
  * A sorter implementing the Bubblesort algorithm.

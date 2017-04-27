@@ -1,6 +1,6 @@
 <?php
 
-namespace Afonso\Sorting;
+namespace Afonso\Dsalg;
 
 /**
  * An interface for classes which perform comparisons between arbitrary

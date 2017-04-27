@@ -1,6 +1,6 @@
 <?php
 
-namespace Afonso\Sorting;
+namespace Afonso\Dsalg;
 
 /**
  * A sorter implementing the Heapsort algorithm.
@@ -29,7 +29,7 @@ class Heapsort implements SorterInterface
      * fulfills the heap property.
      *
      * @param array $a
-     * @param \Afonso\Sorting\ComparatorInterface $comparator
+     * @param \Afonso\Dsalg\ComparatorInterface $comparator
      * @return array
      */
     protected function heapify(array $a, ComparatorInterface $comparator)
