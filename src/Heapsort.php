@@ -25,9 +25,8 @@ class Heapsort implements SorterInterface
     }
 
     /**
-     * Returns an array with the same items as
-     * the input array, but which fulfills the
-     * heap property.
+     * Returns an array with the same items as the input array, but which
+     * fulfills the heap property.
      *
      * @param array $a
      * @param \Afonso\Sorting\ComparatorInterface $comparator
@@ -72,8 +71,7 @@ class Heapsort implements SorterInterface
     }
 
     /**
-     * Returns the index of the parent node for
-     * the given index.
+     * Returns the index of the parent node for the given index.
      *
      * @param int $i
      * @return int
@@ -84,8 +82,7 @@ class Heapsort implements SorterInterface
     }
 
     /**
-     * Returns the index of the left child node for
-     * the given index.
+     * Returns the index of the left child node for the given index.
      *
      * @param int $i
      * @return int
@@ -96,8 +93,7 @@ class Heapsort implements SorterInterface
     }
 
     /**
-     * Returns the index of the right child node for
-     * the given index.
+     * Returns the index of the right child node for the given index.
      *
      * @param int $i
      * @return int

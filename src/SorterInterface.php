@@ -8,8 +8,8 @@ namespace Afonso\Sorting;
 interface SorterInterface
 {
     /**
-     * Sorts the given array using the provided
-     * comparator, and returns the result.
+     * Sorts the given array using the provided comparator, and returns the
+     * result.
      *
      * @param array $set
      * @param \Afonso\Sorting\ComparatorInterface $comparator

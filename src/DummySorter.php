@@ -3,8 +3,7 @@
 namespace Afonso\Sorting;
 
 /**
- * A dummy sorter which returns the same set
- * that it is given.
+ * A dummy sorter which returns the same set that it is given.
  */
 class DummySorter implements SorterInterface
 {

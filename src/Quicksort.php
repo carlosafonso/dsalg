@@ -5,8 +5,8 @@ namespace Afonso\Sorting;
 /**
  * A sorter implementing the Quicksort algorithm.
  *
- * This class falls back to PHP's native sorting
- * functions, as they already implement Quicksort.
+ * This class falls back to PHP's native sorting functions, as they already
+ * implement Quicksort.
  */
 class Quicksort implements SorterInterface
 {
