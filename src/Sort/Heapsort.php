@@ -1,6 +1,8 @@
 <?php
 
-namespace Afonso\Dsalg;
+namespace Afonso\Dsalg\Sort;
+
+use Afonso\Dsalg\ComparatorInterface;
 
 /**
  * A sorter implementing the Heapsort algorithm.

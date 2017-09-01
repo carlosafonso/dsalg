@@ -1,6 +1,8 @@
 <?php
 
-namespace Afonso\Dsalg;
+namespace Afonso\Dsalg\Sort;
+
+use Afonso\Dsalg\ComparatorInterface;
 
 /**
  * A dummy sorter which returns the same set that it is given.
